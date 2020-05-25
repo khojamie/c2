@@ -4,6 +4,7 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height: 100%;
 }
 
 .btnp {
@@ -39,34 +40,31 @@ html {
 
 
 .fyw h4{
-    position: absolute;
-    left: 100px;
-    bottom: 650px;
+    position: relative;
+    left: 10%;
+    top: 100px;
     font-family: 'Montserrat', sans-serif;
 
 }
 
 .fyy h4{
-    position: absolute;
-    left: 100px;
-    bottom: 600px;
+    position: relative;
+    left: 10%;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     font-weight: 300;
 }
 
 .fyz h4{
-    position: absolute;
-    left: 100px;
-    bottom: 450px;
+    position: relative;
+    left: 10%;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     font-weight: 300;
 }
 .fya h4{
-    position: absolute;
-    left: 100px;
-    bottom: 300px;
+    position: relative;
+    left: 10%;
     font-family: 'Montserrat', sans-serif;
     opacity: 0.5;
     font-weight: 700;
