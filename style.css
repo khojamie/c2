@@ -1,0 +1,71 @@
+body{
+    background-image: url('Background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.btnp {
+    position: absolute;
+    right: 100px;
+}
+
+.btn {
+  box-shadow:inset 0px 1px 0px 0px #00000;
+	background-color:transparent;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:3px 15px;
+	text-decoration:none;
+
+}
+
+.btn:hover {
+	background-color:green;
+  color: #ffff
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+.fyw h4{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.fyy h4{
+    position: absolute;
+    left: 100px;
+    top: 600px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.fyz h4{
+    position: absolute;
+    left: 100px;
+    top: 350px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    transform: rotate(-90deg);
+}
+.fya h4{
+    position: absolute;
+    left: 100px;
+    top: 700px;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0.5;
+    font-weight: 700;
