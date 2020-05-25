@@ -1,13 +1,15 @@
-body{
-    background-image: url('Background.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+html {
+  background: url('Background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .btnp {
     position: absolute;
     right: 100px;
+    bottom: 850px;
 }
 
 .btn {
@@ -20,7 +22,7 @@ body{
 	font-family:Arial;
 	font-size:15px;
 	font-weight:bold;
-	padding:3px 15px;
+	padding:3px 20px;
 	text-decoration:none;
 
 }
@@ -39,7 +41,7 @@ body{
 .fyw h4{
     position: absolute;
     left: 100px;
-    top: 100px;
+    bottom: 650px;
     font-family: 'Montserrat', sans-serif;
 
 }
@@ -47,7 +49,7 @@ body{
 .fyy h4{
     position: absolute;
     left: 100px;
-    top: 600px;
+    bottom: 600px;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     font-weight: 300;
@@ -56,16 +58,15 @@ body{
 .fyz h4{
     position: absolute;
     left: 100px;
-    top: 350px;
+    bottom: 450px;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     font-weight: 300;
-    transform: rotate(-90deg);
 }
 .fya h4{
     position: absolute;
     left: 100px;
-    top: 700px;
+    bottom: 300px;
     font-family: 'Montserrat', sans-serif;
     opacity: 0.5;
     font-weight: 700;
