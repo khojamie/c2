@@ -8,9 +8,8 @@ html {
 }
 
 .btnp {
-    position: absolute;
-    right: 100px;
-    bottom: 850px;
+    position: relative;
+    right: 10%
 }
 
 .btn {
@@ -41,7 +40,7 @@ html {
 
 .fyw h4{
     position: relative;
-    left: 10%;
+    left: 6%;
     top: 100px;
     font-family: 'Montserrat', sans-serif;
 
@@ -49,7 +48,8 @@ html {
 
 .fyy h4{
     position: relative;
-    left: 10%;
+    left: 6%;
+    top: 675px;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     font-weight: 300;
@@ -57,14 +57,17 @@ html {
 
 .fyz h4{
     position: relative;
-    left: 10%;
+    right: 43%;
+    top: -500px;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     font-weight: 300;
+    -webkit-transform: rotate(-90deg);
 }
 .fya h4{
     position: relative;
-    left: 10%;
+    top: 650px;
+    left: 6%;
     font-family: 'Montserrat', sans-serif;
     opacity: 0.5;
     font-weight: 700;
